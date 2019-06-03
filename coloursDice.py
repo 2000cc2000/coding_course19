@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # team: joaopn
+# expert of exercise block 1: george
 
 import random
 import time
@@ -20,5 +21,6 @@ def write_log_file(outputfilename, data):
 
 if __name__ == "__main__":
     outputfilename = "randomNumber"
-    roll = get_random_number(1, 100)
-    write_log_file(outputfilename, roll)
+    roll_num = get_random_number(1, 6)
+    roll_color = ['red','blue','black','yellow', 'green', 'gray']
+    write_log_file(outputfilename, roll_color[roll_num])
