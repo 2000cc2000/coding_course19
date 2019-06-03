@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 #
 # team: joaopn
-# expert of exercise block 1: george
+# expert of exercise block 1: george d
+#kael
 
 import random
 import time
